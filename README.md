@@ -1,6 +1,6 @@
 # Endpoints Checker
 
-Tool to check periodically a set of services defined in a configuration schema
+Tool to check periodically a set of services defined in a configuration schema.
 
 ## Configuration
 
