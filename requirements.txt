@@ -1,0 +1,7 @@
+apscheduler
+flask
+healthcheck
+PyYAML
+requests
+six
+uWSGI

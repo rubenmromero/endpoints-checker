@@ -1,0 +1,36 @@
+---
+checks:
+  - service: code-service
+    request:
+      endpoint: "https://webhook.site/83b23772-b4ca-4fbe-a0b6-1b471f6d0773"
+      method: GET
+    response:
+      ok:
+        code: 200
+
+  - service: json-service
+    request:
+      body: "{\"checker\": \"spotahome\"}"
+      endpoint: "https://webhook.site/cf3752ca-5972-4598-a852-bb323111b2e4"
+      method: GET
+    response:
+      ok:
+        body: "{\"status\": \"ok\"}"
+
+  - service: header-service
+    request:
+      endpoint: "https://webhook.site/83b23772-b4ca-4fbe-a0b6-1b471f6d0773"
+      method: GET
+    response:
+      ok:
+        header:
+          key: Server
+          value: nginx/1.10.3
+
+  - service: cust-code-service
+    request:
+      endpoint: "https://webhook.site/07968b1a-6b10-4b14-88dc-6f5e4b2bb82d"
+      method: GET
+    response:
+      ok:
+        code: 418
