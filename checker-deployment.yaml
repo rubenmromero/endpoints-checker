@@ -19,7 +19,9 @@ spec:
         io.kompose.service: checker
     spec:
       containers:
-      - image: python
+      - env:
+        - name: NOTIF_TOKEN
+        image: python
         name: checker
         ports:
         - containerPort: 5000

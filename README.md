@@ -19,12 +19,15 @@ Tool to check periodically a set of services defined in a configuration schema.
 ### Local
 
     $ pip3 install -r requirements.txt
+    $ export NOTIF_TOKEN=<token>
     $ python3 checker.py
 
 ### Docker Compose
 
+    $ export NOTIF_TOKEN=<token>
     $ docker-compose up -d
 
 ### Kubernetes
 
+    $ export NOTIF_TOKEN=<token>
     $ kubectl apply -f checker-service.yaml,checker-claim0-persistentvolumeclaim.yaml,checker-deployment.yaml

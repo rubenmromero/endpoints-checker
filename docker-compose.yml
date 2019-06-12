@@ -10,4 +10,4 @@ services:
     volumes:
       - "./:/app"
     environment:
-     - NOTIF_TOKEN=${NOTIF_TOKEN}
+      - NOTIF_TOKEN=${NOTIF_TOKEN}
