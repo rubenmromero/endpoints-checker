@@ -1,4 +1,4 @@
-# Endpoints Checker
+# Endpoint-Checker
 
 Tool to check periodically a set of services defined in a configuration schema.
 
