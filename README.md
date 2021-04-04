@@ -4,11 +4,11 @@ Tool to check periodically a set of services defined in a configuration schema.
 
 ## Configuration
 
-1. Download the project code in your favourite path:
+1. Clone the project in the path you want:
 
        $ git clone https://github.com/rubenmromero/endpoints-checker.git
 
-2. If you want to customize the configuration schema file before the first tool execution, copy the [schema.yml](schema.yml.dist) template to `schema.yml` and update it:
+2. If you want to customize the configuration schema file before the first tool execution, create a copy of [`schema.yml.dist`](schema.yml.dist) template named `schema.yml` and update it:
 
         # From the project root folder
         $ cp -p schema.yml.dist schema.yml
