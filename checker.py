@@ -12,7 +12,6 @@ import requests
 import shutil
 import sys
 import yaml
-
 from flask import Flask
 from flask import jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
